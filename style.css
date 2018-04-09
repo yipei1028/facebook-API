@@ -29,7 +29,7 @@ nav > button{
   height:400px;
   margin: 0 auto;
   /* box-shadow: ; */
-  background-color: white;
+  background-color: rgba(76,116,179,0.3);
   padding:5px 15px 0px 15px;
   border:1px solid lightgray;
   box-shadow: 1px 1px gray;
@@ -43,7 +43,6 @@ nav > button{
   font-weight: bold;
   font-size: 20px;
   margin-left:360px;
-  /* 這裡設定margin-right:40px;沒用，margin-left卻可以QAQ */
 }
 
 .login-top{
@@ -51,8 +50,13 @@ nav > button{
   width:95%;
   height:100px;
   margin:0 auto;
-  background-color: pink;
+  
   text-align: center;
+}
+
+.login-top > img{
+  width: 80px;
+  height: 80px;
 }
 
 .login-bottom{
@@ -60,7 +64,7 @@ nav > button{
   width:95%;
   height:250px;
   margin:0 auto;
-  background-color: yellow;
+  background-color:white;
   text-align: center;
 }
 
@@ -74,18 +78,26 @@ vertical-align: middle;
 font-size:18px;
 }
 
+.input-icon{
+  display:inline-block;
+  width:20px;
+  vertical-align: middle;
+}
+
 .inputTitle{
  display:inline-block;
- width:80px;
+ width:70px;
  vertical-align: middle;
 }
 
 .user-name-box > input{
-width:200px;
+width:190px;
 height: 30px;
-margin-left:15px;
+margin-left:20px;
 vertical-align: middle;
 padding:5px;
+background-color:rgb(242,242,242);
+border: 0px;
 }
 
 .password-box{
@@ -99,10 +111,12 @@ padding:5px;
 }
 
 .password-box > input{
-  width:200px;
+  width:190px;
   height: 30px;
   margin-left:15px;
   padding:5px;
+  background-color:rgb(242,242,242);
+  border: 0px;
 }
 
 .mention-box{
