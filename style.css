@@ -163,10 +163,13 @@ border: 0px;
   width:100%;
 }
 
-.login-api-btn-box > button{
+.login-api-btn-box > #welcome > button{
   display: block;
   width:90%;
   height: 30px;
   margin: 20px auto;
-  background-color: blue;
+  border-radius:25px;
+  background-color: #2e75b6;
+  color:white;
+  font-size:15px;
 }
